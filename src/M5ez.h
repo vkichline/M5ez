@@ -345,7 +345,7 @@ class ezMenu {
 		void imgCaptionColor(uint16_t color);
 		void imgCaptionMargins(int16_t hmargin, int16_t vmargin);
 		void imgCaptionMargins(int16_t margin);
-	private:
+	protected:
 		struct MenuItem_t {
 			String nameAndCaption;
 			const char *image;
